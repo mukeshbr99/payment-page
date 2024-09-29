@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pament form</title>
+</head>
+<body>
+   <form action="">
+    <h1>payment form</h1>
+    <h2>contect information</h2>
+    <p>name: * <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>gender * </legend>
+    <p>
+    male <input type="radio" name="gender" id="male" required>
+     female <input type="radio" name="gender" id="female" required>
+    </p>
+</fieldset>
+<p>address: * <textarea name="address" id="address" cols="100" rows="8" required></textarea></p>
+<p>email: * <input type="email" name="email" id="email" required></p>
+<p>pincode: * <input type="number" name="pincode" id="pincode" required></p>
+<hr>
+<h2>pay pament</h2>
+<p>card type: * <select name="card_type" id="card_type" required><option value="">--select a card type--</option>
+    <option value="visa"> visa</option>
+    <option value="rupay"> rupay</option>
+    <option value="google pay"> google pay</option>
+    <option value="phone pay"> phone pay</option>
+</select></p>
+<p>card number * <input type=" number" name="card_number" id="card_number" required></p>
+<p>
+    expiration date: * <input type="date" name="exp_date" id="exp_date" required>
+</p>
+<p>password * <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="pay now" required>
+<p> <input type="submit" value="submit"></p>
+
+   </form> 
+</body>
+</html>
